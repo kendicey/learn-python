@@ -5,9 +5,8 @@ def find_factorial(n):
         ans *= (x + 1)
     return ans
 
+
 # recursion
-
-
 def find_factorial_recursive(n):
     if n == 1:
         return 1
