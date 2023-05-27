@@ -1,3 +1,7 @@
+""" python has a recursive depth limit
+    so it flavours iteration than recursion"""
+
+
 def recursive_binary_search(list, target):
     if len(list) == 0:
         return None
